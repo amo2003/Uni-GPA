@@ -4,7 +4,7 @@
 export const asgardeoConfig = {
   signInRedirectURL: window.location.origin,
   signOutRedirectURL: window.location.origin,
-  clientID: process.env.REACT_APP_CLIENT_ID || "YOUR_CLIENT_ID",
-  baseUrl: process.env.REACT_APP_BASE_URL || "https://api.asgardeo.io/t/YOUR_ORG_NAME",
+  clientID: process.env.REACT_APP_CLIENT_ID || "_zUnjAOGOOfNcN_ZKrU3b9mjaQoa",
+  baseUrl: process.env.REACT_APP_BASE_URL || "https://api.asgardeo.io/t/amod",
   scope: ["openid", "profile", "email"],
 };
